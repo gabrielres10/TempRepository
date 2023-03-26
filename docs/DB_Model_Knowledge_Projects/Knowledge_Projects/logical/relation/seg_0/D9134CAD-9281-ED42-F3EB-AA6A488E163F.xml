@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Convening" directorySegmentName="seg_0" id="D9134CAD-9281-ED42-F3EB-AA6A488E163F">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:38:42 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<sourcePk>246E0AB5-93C5-5C40-0FB7-FD45474104E4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9E3BB450-F07E-4152-3F9B-553965A4B300</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5845F74-4CB5-3B88-BA49-A7F024B9AD8D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="idProject" id="7B93BCD9-19F5-549E-7CAF-34631A9BF949">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:41:18 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="idAnnoun" id="7ADC1C97-A5E3-8833-C47B-24F0357C9416">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:58:39 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

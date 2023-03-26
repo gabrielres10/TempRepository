@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84C4BD98-1442-C549-6243-12092FD56C6D" name="User">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:10 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="phoneN" id="EDD12A5F-85AD-4E58-34D7-9D3E497B6C1F">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:16 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="4799A877-ACC0-374F-7121-BB5AC8795D07">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:21 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cc" id="7AC6BEA6-F8C7-C972-1041-356D274029EB">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="birthDay" id="E143001C-4F61-0C49-CE26-1D8EEEAA1E38">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:34 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fullName" id="6F7D5A3C-8B3C-39D5-1173-EB5AEBCED3DD">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:47 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="30967AF0-2ECB-F10C-E874-70A1A7F464D5">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:20:55 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="photo" id="798E9BC8-0249-D73B-A418-886B7052E167">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:21:09 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="30E864CD-F64F-6284-1329-09C8B64902CE" name="User PK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:24:38 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7AC6BEA6-F8C7-C972-1041-356D274029EB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

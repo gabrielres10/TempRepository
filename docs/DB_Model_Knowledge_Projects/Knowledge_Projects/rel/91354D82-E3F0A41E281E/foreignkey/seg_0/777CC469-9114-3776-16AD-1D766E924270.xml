@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="777CC469-9114-3776-16AD-1D766E924270" containerWithKeyObject="9168F678-453B-CCD0-189D-0C9AF300B136" localFKIndex="B3A0C5CB-75D4-3DD9-E154-FD917D8C4598" name="Convening_Announcement_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>D9134CAD-9281-ED42-F3EB-AA6A488E163F</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<referredTableLongName>Announcement</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B4E013FF-CD17-CB2B-4C50-E85B12B69FBF</referredTableID>
+<keyObject>3391ED0E-6137-D573-90F2-62E64913DF85</keyObject>
+<referredKeyID>3391ED0E-6137-D573-90F2-62E64913DF85</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idAnnoun</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

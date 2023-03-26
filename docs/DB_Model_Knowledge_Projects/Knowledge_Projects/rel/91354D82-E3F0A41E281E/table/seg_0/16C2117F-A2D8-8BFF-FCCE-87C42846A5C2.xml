@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16C2117F-A2D8-8BFF-FCCE-87C42846A5C2" name="Donation">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Company_nit" id="D1BF57B1-0162-B0AC-DD24-49B18300ADF0">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B973F659-0B8B-3286-F7E9-8E60DDFAF27F" referredColumn="9F991525-2061-D6D9-C200-7098B2C6A44A"/>
+</associations>
+</Column>
+<Column name="Requirements_idReq" id="193A3475-6BF5-220D-B447-69616E3CFF78">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2C57AA7-705C-D642-25E3-DE643DA0E597" referredColumn="E1964673-09E4-D4B3-EDE4-6E4EA21967D5"/>
+</associations>
+</Column>
+<Column name="idReq" id="170D7C4C-9890-BEE1-296A-710882997ECB">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>F10EB462-C91D-3EC8-0583-F2C29613463E</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="nit" id="7BA7D8BC-086C-07D1-53FB-6CBEDC7F401C">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>3C008B12-7A4B-2A45-3C95-0A4147836E6F</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="amount" id="8D8ADBCB-271D-4AA6-588A-FA0E7E359494">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>6EB643E3-7D71-7DA1-0C1D-D109D4F38799</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT022</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="state" id="B8A92F8F-9C3C-04A6-CA95-45BBEC84F489">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>8F07C4D2-EE99-364F-B12B-61A645AB6964</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="details" id="C63BB746-0E2A-13C7-A2EA-14F2BDB75D47">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>BE316BC2-5610-C7A3-9E49-46F04EBABF01</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35139F58-86B6-6F44-FF76-4C9E09F0D362" name="Donation_PK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1BF57B1-0162-B0AC-DD24-49B18300ADF0"/>
+<colUsage columnID="193A3475-6BF5-220D-B447-69616E3CFF78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F37EF50-E979-C819-B199-ED51919DB518" name="Donation_Company_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>300D28EA-F363-BFF7-B214-62FFE434BC38</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1BF57B1-0162-B0AC-DD24-49B18300ADF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98342044-C3D2-CD58-373B-74989DFA4533" name="Donation_Requirements_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>300D28EA-F363-BFF7-B214-62FFE434BC38</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="193A3475-6BF5-220D-B447-69616E3CFF78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5845F74-4CB5-3B88-BA49-A7F024B9AD8D" name="Project">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:26:06 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Objective" id="C78344C3-41FC-F9B3-B9E0-DE890E9FC56A">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:26:33 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="results" id="4A6CD48C-1DF6-96AA-45D7-44CCD8B46FF6">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:26:51 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idProject" id="82D0DE64-13FB-9BC2-9AE0-3C68FF30D700">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:27:34 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reach" id="9BFFE995-7989-A35E-EB37-A7619D40C282">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:28:07 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="state" id="C56B9204-6E24-45D3-A109-07C818489679">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:28:10 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nit" id="33A57F81-2443-09B3-4E59-D655E69895B5">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:56:03 UTC</createdTime>
+<generatorID>B0E73AAF-8761-DD83-35DD-CF52EA96DAA3</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<referedAttribute>F05E1018-36D6-B9E8-0A9E-D3E3E5E8095D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45DE9468-2CD4-6FE8-1F6C-F29201C87317" name="Project PK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:29:11 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>82D0DE64-13FB-9BC2-9AE0-3C68FF30D700</newElementsIDs>
+<usedAttributes>
+<attributeRef>82D0DE64-13FB-9BC2-9AE0-3C68FF30D700</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

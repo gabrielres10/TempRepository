@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Roles" directorySegmentName="seg_0" id="5FE32460-A324-12C5-40C5-07EB206FED1B">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:39:32 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<sourcePk>30E864CD-F64F-6284-1329-09C8B64902CE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>84C4BD98-1442-C549-6243-12092FD56C6D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E3483559-E0F2-08C3-6474-1C2672270B38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="idRol" id="C3A79D36-2D6C-FCEF-60DE-3F7659A483FD">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:39:39 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="idUser" id="AA524D6B-EFDC-8824-1BC8-F48115EE0600">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 19:39:45 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1912BA86-8AE6-0FDA-680A-21280A933F40" containerWithKeyObject="370812D4-6323-DCC8-CB06-13B7240F35FA" localFKIndex="D43CF0E0-5A2E-CBFA-76A5-150EBDBD5DE8" name="Binnacle_Project_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>816066F9-DA57-245D-AFD6-D5C6A72627A2</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<referredTableLongName>Project</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E913910A-2462-BEA5-D3DA-5FEED7485A82</referredTableID>
+<keyObject>F9499784-4552-7AEE-4A73-A06DE28CED34</keyObject>
+<referredKeyID>F9499784-4552-7AEE-4A73-A06DE28CED34</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idProject</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

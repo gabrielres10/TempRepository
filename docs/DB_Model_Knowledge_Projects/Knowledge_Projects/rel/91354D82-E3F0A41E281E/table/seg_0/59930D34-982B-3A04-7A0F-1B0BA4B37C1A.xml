@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="59930D34-982B-3A04-7A0F-1B0BA4B37C1A" name="Company">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>DB56FF56-2E4E-09E5-7809-612A04278857</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit" id="9F991525-2061-D6D9-C200-7098B2C6A44A">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>F05E1018-36D6-B9E8-0A9E-D3E3E5E8095D</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phoneNumber" id="B8B5B936-4D28-16A2-8AFB-71747ACFB775">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>106DE068-D95A-D99E-1EE2-AB6D224CAAA9</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adress" id="D655C201-AF89-E964-DD95-E62B69ABE95B">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>DD6F6DAF-636D-F826-9490-A55E334ABE05</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="4C527560-D8F7-F840-B5B5-D861A3630430">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>E8D07B93-0ADC-EB54-1254-637622304C3B</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_cc" id="D6D9FD4E-CB31-D5AC-1582-C47018B084B3">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>EEC81A2E-EE17-E904-E259-2FB56D61D7ED</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="774ECB58-082E-87CA-970A-E4FBA5C649A9" referredColumn="F6732A47-EB28-7881-08CF-8D8BAF9D3BAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A35A19F0-758B-8ABE-48D0-C71753114EC8" name="Company_PK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>14F7B230-AB13-0091-2E63-6B84F307D7D6</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F991525-2061-D6D9-C200-7098B2C6A44A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C606AF4-39ED-F1D8-D349-BE38A4E0E072" name="Company__IDX">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>2D871936-8D24-5B36-0F07-F3041139C487</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D6D9FD4E-CB31-D5AC-1582-C47018B084B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB105FC0-2347-939B-E3F0-3690F8EFAEBF" name="Company_User_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>2D871936-8D24-5B36-0F07-F3041139C487</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D9FD4E-CB31-D5AC-1582-C47018B084B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

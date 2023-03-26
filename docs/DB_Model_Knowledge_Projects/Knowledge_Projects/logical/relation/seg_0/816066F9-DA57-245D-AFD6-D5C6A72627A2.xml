@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Binnacle" directorySegmentName="seg_0" id="816066F9-DA57-245D-AFD6-D5C6A72627A2">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-16 21:24:37 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<engineerTo>
+<item key="91354D82-83C1-6915-5B88-E3F0A41E281E" value="true"/>
+</engineerTo>
+<sourcePk>45DE9468-2CD4-6FE8-1F6C-F29201C87317</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E5845F74-4CB5-3B88-BA49-A7F024B9AD8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>25829D25-E5FC-AEA3-DAFA-7909EE73DE4A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

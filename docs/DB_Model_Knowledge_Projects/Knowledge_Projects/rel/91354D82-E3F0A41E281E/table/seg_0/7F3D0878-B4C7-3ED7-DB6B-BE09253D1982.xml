@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F3D0878-B4C7-3ED7-DB6B-BE09253D1982" name="Roles">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_cc" id="10C897D0-BCFD-6600-01CC-6AFEA99A4AC1">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61845355-F8DF-D749-7D38-681A4AAC9AA6" referredColumn="F6732A47-EB28-7881-08CF-8D8BAF9D3BAC"/>
+</associations>
+</Column>
+<Column name="Role_idRole" id="49BD6A98-C9ED-2A4C-33C3-897E2668C537">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F12CE5D-2AE8-1950-7D50-D331BB43F025" referredColumn="DEAEA26E-84A9-3299-A665-C0C958F85703"/>
+</associations>
+</Column>
+<Column name="idRol" id="E4576290-E95E-66FF-1C2A-3F0468A05C9A">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>C3A79D36-2D6C-FCEF-60DE-3F7659A483FD</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="idUser" id="3ACE6817-C3D0-B86E-9ED4-101DB8BC5867">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>AA524D6B-EFDC-8824-1BC8-F48115EE0600</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2266E1C-D81D-54A3-21AA-7A0D0A1667B1" name="Roles_PK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10C897D0-BCFD-6600-01CC-6AFEA99A4AC1"/>
+<colUsage columnID="49BD6A98-C9ED-2A4C-33C3-897E2668C537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECE8C7EC-5A03-E7C3-D487-BBE9CB958A98" name="Roles_User_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>5FE32460-A324-12C5-40C5-07EB206FED1B</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10C897D0-BCFD-6600-01CC-6AFEA99A4AC1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="060C1839-29B6-0375-0AB6-A156F2BB4F5B" name="Roles_Role_FK">
+<createdBy>kizyz</createdBy>
+<createdTime>2023-03-25 23:59:28 UTC</createdTime>
+<generatorID>5FE32460-A324-12C5-40C5-07EB206FED1B</generatorID>
+<ownerDesignName>Knowledge_Projects</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49BD6A98-C9ED-2A4C-33C3-897E2668C537"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
