@@ -37,4 +37,5 @@ Las siguientes historias de usuario hacer referencia a funcionalidades del progr
 * HU 15: Visualización de catálogo de proyectos
     * Yo cómo cliente deseo poder ver el catálogo de proyectos del banco y así mismo, deseo poder buscar por coincidencias, para poder seleccionar algún proyecto.
 
-
+## Diseño del frontend:  
+El proyecto cuenta con el siguiente diseño de interfaz alojado en la plataforma Figma: https://www.figma.com/file/of6db2sodg57llu8YE5qOG/Knowledge-Projects?node-id=0%3A1&t=POeVbM2XXNvNOseg-1
